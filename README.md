@@ -7,3 +7,9 @@
 ```bash
 pre-commit run --all-files
 ```
+
+## pre-commit install
+
+```bash
+pip install pre-commit
+```
