@@ -1,4 +1,4 @@
-# .coderabbit.yml
+language: "ko"               # 한국어로 리뷰
 reviews:
   auto_review:
     enabled: true              # 모든 PR을 자동 리뷰
@@ -15,5 +15,4 @@ reviews:
     ask_clarifying_questions: false
 
   comments:
-    language: "ko"               # 한국어로 리뷰
     tone: "friendly"             # 친근하게
