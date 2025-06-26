@@ -29,5 +29,5 @@ pre-commit run --all-files
 ## pre-commit install
 
 ```bash
-pip3 install pre-commit
+pip install pre-commit
 ```
