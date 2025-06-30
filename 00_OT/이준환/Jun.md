@@ -14,5 +14,5 @@
 
 ```java
 String name;
-println(name);
+system.out.println(name);
 ```
