@@ -17,7 +17,7 @@
 - 콘크리트 프로토타입(커스텀 인스턴스)
 - 콘크리트 프로토타입 관리자(인스턴스 복사 역할)
 - 사용자(인스턴스 사용 또는 복사를 하는 주체)
-- 인스턴스를 복사하는 java.lang.Cloneable의 clone() - Cloneable 을 상속 받으면 사용 가능하다.
+- 인스턴스를 복사하는 java.lang.Cloneable의 clone()은 Cloneable 인터페이스를 구현하면 사용 가능하다.
 
 ## 4. 왜 굳이 Prototype 패턴인지?
 

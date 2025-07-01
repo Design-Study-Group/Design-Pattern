@@ -17,6 +17,11 @@ class Manager{
     public Product create(String prototypeName){    // 프로토 타입 이름을 쇼케이스에 추가
         Product p = showcase.get(prototypeName);
 
+        // 토끼가 유효한 프로토타입 이름을 검사하지 않으면 널 포인터 에러가 발생할 수 있다고 지적(수정 완료)
+        if (p == null) {
+            throw new IllegalArgumentException("등록되지 않은 프로토타입: " + prototypeName);
+        }
+
         // 생성한 제품 인스턴스를 복제하도록 createCopy 메소드 호출
         return p.createCopy();
     }
