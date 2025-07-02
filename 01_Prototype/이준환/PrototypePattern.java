@@ -1,14 +1,5 @@
 public class PrototypePattern {
     public static void main(String[] args) throws CloneNotSupportedException {
-
-        Rectangle rect1 = new Rectangle(100, 100);
-        Rectangle rect2 = rect1.clone();
-
-        System.out.println(rect1);
-        System.out.println(rect2);
-
-
-
         System.out.println("=== Prototype Pattern 데모 ===\n");
 
         // 1. 직접 프로토타입 사용
