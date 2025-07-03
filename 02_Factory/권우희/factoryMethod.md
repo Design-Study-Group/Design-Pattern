@@ -17,8 +17,7 @@
 - 구체적인 내용은 하위 클래스 ConcreteCreator가 결정한다.
 - 실제로 생성할 ConcreteProduct에 대해서는 아는 바가 없다.
 
-## ConcreateProduct
-
+## ConcreteProduct
 - 구체적으로 살을 붙이는 쪽으로 구체적인 제품을 결정한다.
 
 ## ConcreateCreator
