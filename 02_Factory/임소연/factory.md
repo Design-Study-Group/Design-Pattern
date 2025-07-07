@@ -16,7 +16,7 @@
 
 ## 구조
 
-``` java
+```java
 [Creator (abstract)] — 객체 생성을 위한 추상 메서드 포함
         ▲
         │extends
