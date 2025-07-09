@@ -14,7 +14,7 @@ public class WinningStrategy implements Strategy {
     @Override
     public Hand nextHand() {
         if (!won) {
-            prevHand = Hand.getHand(random.nextInt() * 3);
+            prevHand = Hand.getHand(random.nextInt(3));
         }
         return prevHand;
     }
