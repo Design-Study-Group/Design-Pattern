@@ -37,7 +37,7 @@ public class Customer {
             case 2:
                 return handleCardPay();
             case 3:
-                return handleKakaoPay(true);
+                return handleKakaoPay();
             default:
                 return null;
         }
@@ -57,7 +57,7 @@ public class Customer {
         return new CardPay(cardCompany);
     }
 
-    private static PayStrategy handleKakaoPay(boolean isKakaoPay) {
+    private static PayStrategy handleKakaoPay() {
         System.out.println("======== 3. 카카오페이 ========");
         System.out.println("프로모션 대상 여부를 선택하세요 1. 참여 0. 미참여");
         int result = scanner.nextInt();
